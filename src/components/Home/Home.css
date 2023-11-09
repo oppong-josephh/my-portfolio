@@ -1,0 +1,33 @@
+.icons>*{
+    margin-top: 5rem;
+    gap: 0;
+    transform: scale(0.5);
+    transition: transform 0.8s;
+}
+
+.icons>*:hover{
+  transform: scale(1);
+  cursor: pointer;
+}
+/* .h-wrapper .h-left{
+  margin-top: rem;
+} */
+
+.h-banner{
+  transform: scale(0.72);
+  margin-top: -10rem;
+  position: relative;
+}
+
+.card1{
+  top: 7rem;
+  right: 2rem;
+  position: absolute;
+  transform: scale(0.6);
+}
+.card2{
+  top: 30rem;
+  left: 40rem;
+  position: absolute;
+  transform: scale(0.6);
+}

@@ -1,0 +1,15 @@
+button, .n-button{
+  padding: 11px 26px;
+  border-radius: 34px;
+  border: none;
+  transition: 0.8s; 
+}
+
+.n-logo{
+  font-family: "Agbalumo";
+}
+
+.nav-link:hover {
+  color: var(--voilet) !important; 
+}
+
