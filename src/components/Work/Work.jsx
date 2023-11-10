@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import './Work.css'
 import Veebeckz from '../../img/veebekz.png'
-import Devvloop from '../../img/Devloop.png'
+// import Devvloop from '../../img/Devloop.png'
 
 const Work = () => {
   return (
@@ -33,7 +33,11 @@ const Work = () => {
                     </div>
 
                     <div className="w-2circle">
-                        <img src={Devvloop} alt="VeebeckzLogo" />
+                        <img src={Veebeckz} alt="VeebeckzLogo" />
+                    </div>
+
+                    <div className="w-2circle">
+                        <img src={Veebeckz} alt="VeebeckzLogo" />
                     </div>
 
                     <div className="w-2circle">
@@ -43,6 +47,8 @@ const Work = () => {
                     <div className="w-2circle">
                         <img src={Veebeckz} alt="VeebeckzLogo" />
                     </div>
+                    <div className="w-bgCircle blueCircle"></div>
+                    <div className="w-bgCircle voiletCircle"></div>
                 </div>
             </div>
         </div>
