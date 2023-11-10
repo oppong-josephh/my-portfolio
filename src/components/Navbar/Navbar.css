@@ -9,6 +9,9 @@ button, .n-button{
   font-family: "Agbalumo";
 }
 
+.n-logoName{
+  color: var(--voilet);
+}
 .nav-link:hover {
   color: var(--voilet) !important; 
 }

@@ -6,7 +6,7 @@ function NavigationBar() {
     <>
       <Navbar expand="lg" className="n-wrapper my-3">
         <Container>
-          <Navbar.Brand href="#home" className="n-logo">Joseph.Code</Navbar.Brand>
+          <Navbar.Brand href="#home" className="n-logo">Joseph.<span className="n-logoName">Code</span></Navbar.Brand>
           <span>Toggler</span>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

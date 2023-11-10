@@ -15,9 +15,9 @@ const Home = () => {
           <div className="h-wrapper">
             <div className="h-left">
               <div className="h-name">
-                <h1 className="mb-4">
+                <h1 className="mb-4 name">
                   Hello! I Am <br />
-                  <span>Oppong Ansah Joseph</span>
+                  <span className="s-hName">Oppong Ansah Joseph</span>
                 </h1>
                 <p className="mb-4">
                   A seasoned UI/UX and front-end developer known for
@@ -46,6 +46,9 @@ const Home = () => {
                 <img className="card1" src={UICard} alt="Card1" />
                 <img className="card2" src={WebCard} alt="Card2" />
               </div>
+              <div className="blurImgBg" style={{background: "rgb(238 210 255)"}}></div>
+              <div className="blurImgBg" style={{background: "#C1F5FF", 
+              top: "10rem", width: "21rem", height: "11rem" , left: "60rem"}}></div>
             </div>
           </div>
         </div>
