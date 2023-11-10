@@ -18,6 +18,12 @@
 }
 
 .s-blurImgBg{
-  top: 8rem;
-  left: 14rem;
+    position: absolute;
+  top: 63rem;
+  left: -10rem;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(72px);
 }

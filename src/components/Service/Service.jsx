@@ -40,7 +40,7 @@ const Service = () => {
           </div>
         </div>
         <div className="s-blurImgBg" style={{background: "rgb(238 210 255)"}}></div>
-              <div className="blurImgBg" style={{background: "#C1F5FF", top: "60rem", left:"-10rem"}}></div>
+              <div className="blurImgBg" style={{background: "#C1F5FF", top: "60rem", left:"60rem"}}></div>
       </div>
     </div>
   </Container>
