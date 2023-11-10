@@ -1,0 +1,9 @@
+.experience{
+    margin-top: 10rem;
+    margin-bottom: 30vh;
+}
+
+.circle{
+    border-radius: 100%;
+    border-image: var(--blueCard);
+}
