@@ -17,4 +17,7 @@
     position: absolute;
 }
 
-/* style={{top: "20rem", left: "-10rem"}} */
+.s-blurImgBg{
+  top: 8rem;
+  left: 14rem;
+}
