@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className="row">
             <div className="p-mainText text-center">
                 <h1 className="">
-                    Recently <br />
+                    Recent Projects <br />
                     <span>Portfolio</span>
                 </h1>
             </div>
