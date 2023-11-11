@@ -1,9 +1,19 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import './Portfolio.css'
 
 const Portfolio = () => {
   return (
-    <Container></Container>
+    <Container>
+        <div className="row">
+            <div className="p-mainText text-center">
+                <h1 className="">
+                    Recently <br />
+                    <span>Portfolio</span>
+                </h1>
+            </div>
+        </div>
+    </Container>
   )
 }
 
